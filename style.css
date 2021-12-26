@@ -1,0 +1,65 @@
+a:hover{
+    
+    background-color: red;
+    border: blanchedalmond;
+}
+li:nth-child(2n){
+    background-color: salmon ;
+}
+li:nth-last-of-type(1n+3){
+    background-color: blue;
+}
+
+tr{
+    color: black;
+    background-image: url("kucing.jpg");
+    background-size: cover;
+}
+th{
+    color: black;
+}
+.mhs table{
+    border : black;
+}
+
+.logo{
+    /* display inline */
+    background-color: blue;
+}
+.gambar{
+    width: 50%;
+    background-color: brown;
+    margin-top: 50px;
+    
+}    
+.nav{
+    background-color: brown;
+}
+.konten{
+  
+    width: 50%;
+    background-color: burlywood;
+    float: right;
+    margin-right: 10Spx;
+}
+.jurusan{
+    width: 50%;
+    overflow: scroll;
+    height: 200pxs;
+    background-color: chocolate;
+    float: right;
+}
+
+.form{
+    margin-top: 350px;
+    color: red
+}
+img{
+    width: 400px;
+   padding-bottom: 100px;
+   margin-left: 100px;
+   margin-right: 100px;
+    background-color: darkgoldenrod;
+    border:10px solid red;
+    display: block;
+}
