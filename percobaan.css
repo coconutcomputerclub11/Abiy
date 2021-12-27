@@ -1,0 +1,101 @@
+/* style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font: 16px/28px arial, sans-serif;
+    background-image: url(backroud.png);
+    background-color: #eaeaea;
+    color: #333;
+}
+
+.container{
+    width: 900px;
+    margin: auto;
+    background-color: #fff;
+}
+
+.header{
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+.header .judul{
+    color: lightblue;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.header li{
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.header a{
+    text-decoration: none;
+    color: salmon;
+    padding: 5px;   
+}
+
+.header a:hover{
+    background-color: lightblue;
+    color: white;
+}
+
+.gambar{
+    height: 400px;
+    background-image: url(ndktau.png);
+    background-size: cover;
+    background-position: 0 -100px;
+    border-top: 10px solid blue;
+    border-bottom: 10px solid lightsalmon;
+
+}
+.main{
+    width: 600px;
+    padding: 20px;
+    box-sizing: border-box;
+    float: left;
+
+}
+
+.main h2{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.sidebar img{
+   padding-top: 10px;
+   padding-right: 5px;
+    float: left;
+}
+.sidebar p{
+    font: 13px/15px arial;
+    
+}
+
+.footer .copy{
+ background-color: black;
+ color: white;
+ text-align: center;
+ font-size: 12px;
+}
+
+/* clear fix */
+ .cf:before,
+ .cf:after {
+     content: " "; /* 1 */
+     display: table; /* 2 */
+ }
+ 
+ .cf:after {
+     clear: both;
+ }
+ 
+ .cf {
+     *zoom: 1;
+ }
